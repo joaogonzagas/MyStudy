@@ -1,0 +1,126 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Laila:wght@300&family=Maitree:wght@600&family=Open+Sans:ital,wght@0,400;1,400;1,700&display=swap');
+ul,a { 
+    list-style: none;
+    text-decoration: none;
+    font-size: 30px;
+    line-height: 3.0;
+    color:#d1753a;
+    margin-top:-7%;    
+    font-family: 'Maitree', serif;
+}
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url(../../assets/images/DesignLogo\(3\).png);
+    background-size: 300px;
+    
+}
+section {
+    background-color: #053782;
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    border-radius: 5%;
+    width: 600px;
+    height: 865px; 
+    padding-top:3%;       
+      
+}
+img {
+    width: 420px;
+    height: auto;   
+}
+figure {
+    margin-top:60px;
+    margin-right: 10px; 
+    position: absolute;   
+}
+.div-bca {
+    display: flex;
+    justify-content: center;
+    width: 550px;
+    height: 450px;
+    background-color: #ffffff;
+    border-radius: 5%;
+    margin-top:208px;
+    padding-top: 20%;   
+}
+.pages { 
+    background-color: #ffffff;  
+    text-align: center;
+    width: 500px;
+    height: 410px;
+    border-color: #ababab80;;
+    border-style: solid;
+    border-left: none;
+    border-top: none;    
+    border-width: 10px;
+    border-top-right-radius: 5%;
+    border-bottom-right-radius: 5%;
+    border-bottom-left-radius: 5%;    
+}
+@media(min-width: 1920px) {
+    section {
+        position: fixed;
+    }
+}
+@media(max-width: 1440px) {
+    section {
+        height: 700px;
+    }
+    img {
+        margin-top: -22%;
+    }
+    
+    
+    }
+    @media(max-width: 1024px) {
+        section {        
+            height: 720px;
+            padding-top: 0%;    
+        }
+        img {
+            width: 350px;
+            height: auto;
+            padding: 10%;
+        }   
+    }
+
+@media(max-width: 375px) {
+    body {
+        padding: 50%;
+        
+    }
+  section {
+      position: fixed;
+      width: 375px;      
+  }  
+    
+} 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

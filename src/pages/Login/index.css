@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Laila:wght@300&family=Open+Sans:ital,wght@0,400;1,400;1,700&display=swap');
+
+body{
+    display: flex;
+    justify-content: center;
+    background-image: url(../../assets/images/DesignLogo\(3\).png);
+    background-size: 300px; 
+           
+}
+section {
+    background-color: #053782;
+    display: flex;
+    flex-direction: column;
+    align-items: center;      
+    border-radius: 5%;
+    width: 600px;
+    height: 865px; 
+    padding-top: 3%;     
+}
+div p{
+    padding-left: 230px;
+    font-size: 21px;
+    margin-top: 3%;
+    color: #ffffff;
+
+}
+img {
+    width: 450px;
+    height: auto;
+}
+figure {
+    margin-top:90px;
+    margin-right: 10px;
+}
+input{ 
+    border: 1px;   
+    border-radius: 50px;
+    outline: none;
+    width: 450px;
+    height: 60px;
+    font-size: large;
+    padding-left: 15px;
+         
+}
+form {
+    position: absolute;
+    margin-top: 350px;
+    text-align: center;
+}
+p {
+    font-family: 'Laila', sans-serif;
+    font-size: 40px;
+    color: #ffffff;
+    margin-bottom: 0%;
+}
+.logar{
+    position: absolute;
+    top: 69.5%;
+    right: 3%;
+    width: 55px;
+    height: 80px;
+    border:none;    
+    background-color: transparent;
+}
+.logar img {
+max-width: 100%;
+}
+::placeholder {
+    color: #b8b5b5;
+}
+#esq {
+    text-decoration: none;
+}
+@media (min-width: 1920px) {
+    section {
+        position: fixed;
+    }
+}
+
+@media (max-width: 1680px) {
+    section {
+        height: 865px
+    }
+}
+@media(max-width: 1440px) {
+    section {
+        height: 700px;
+    }
+    img {
+        margin-top: -22%;
+    }
+    form {
+        bottom: 10%;
+    }
+    @media(max-width: 1024px) {
+        section {        
+            height: 720px;
+            padding-top: 0%;       
+        }
+        img {
+            width: 350px;
+            height: auto;
+            padding: 10%;
+        }   
+    }
+}
+@media(max-width: 375px) {
+    body {
+        padding: 50%;
+        
+    }
+  section {
+      position: fixed;
+      width: 375px;      
+  }  
+    
+} 
+
+
+
+
+
+
+
+
+
+
+
+       
+    
+    
+    
+    
+    
+    
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

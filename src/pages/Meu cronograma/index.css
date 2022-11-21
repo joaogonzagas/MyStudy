@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Laila:wght@300&family=Libre+Caslon+Display&family=Maitree:wght@600&family=Open+Sans:ital,wght@0,400;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Laila:wght@700&family=Libre+Caslon+Display&family=Maitree:wght@600&family=Open+Sans:ital,wght@0,400;1,400;1,700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+SA+Beginner:wght@500&family=Laila:wght@700&family=Libre+Caslon+Display&family=Maitree:wght@600&family=Open+Sans:ital,wght@0,400;1,400;1,700&family=Varela+Round&display=swap');
+body {
+    display: flex;
+    justify-content: center;
+    background-image: url(../../assets/images/DesignLogo\(3\).png);
+    background-size: 300px;    
+}
+section {
+    background-color: #053782;
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    border-radius: 5%;
+    width: 600px;
+    height: 865px;
+    position: fixed;    
+    padding-bottom: 3%;   
+}
+.Tuesday {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 1%;    
+    width:530px;
+    height:670px;
+    background-color: #fafafa;
+    border-radius: 4%;
+    border-right: 3px solid black;
+    padding-top: 0%;    
+}
+.estudos {
+    display: flex;
+    flex-direction: column;
+    align-items: center;    
+    background-color:#ffffff;
+    border-top-left-radius: 35px;
+    border-top-right-radius: 35px;
+    border-bottom: none;     
+    padding-top: 2%;
+    width: 490px;
+    height: 577px;
+}
+.estudos button {      
+    border:1px; 
+    border-radius: 25px;
+    width: 470px;
+    height:120px;
+    margin-bottom: 15px;       
+}
+.linha {
+    border-top:1px solid #eeeeee;
+    border-bottom: 1px solid #eeeeee;    
+    border-left: none;
+    border-right: none;    
+    width: 470px;
+    height: 110px;
+    margin-top: 10%;
+    margin-bottom: 0%;    
+}
+section header h1 {
+    font-family: 'Libre Caslon Display', serif;  
+    color: #ffffff;
+    font-size: 90px;
+    margin-bottom: 3%;
+    margin-top: 6%;
+    font-weight: 300;
+}
+.Tuesday h2 {
+    font-size: 40px;
+    font-family:'arial';
+    color: #000000;
+    margin-top: 1%;
+    margin-bottom: 6%;
+    font-weight: 400;
+}
+.estudos p {
+    font-size: 40px;
+    color: #3E52BC;
+    font-family: 'Laila', sans-serif;
+    font-weight: 700;
+    margin-top: 5%;       
+}
+.estudos button p {  
+    color: #ffffff;  
+    font-size: 15px;
+    margin-top: -9px;
+    font-weight: 100; 
+    right: 450px;      
+    position: absolute;   
+}
+.estudos .materia {
+    color: #ffffff;
+    font-family: 'Varela Round', sans-serif;
+    font-weight: 100;
+    font-size: 25px;    
+    margin-top:-13px;
+    left: 160px;
+    position: absolute;
+}
+#btn1 {
+background-color: #eb7676;
+}
+#btn2 {
+    background-color:#f39741;
+}
+#btn3 {
+    background-color: #9ec5d1;
+}
+#btn4 {
+    background-color: #f14242;
+}
+a {
+    text-decoration: none;
+    margin-top: -2%;
+    margin-bottom: -5%;
+}
+
+
+
+    
+
+@media(max-width: 1440px) {
+    section {
+        height: 700px;
+        position: absolute;
+    }
+    .linha {
+        display: none;
+    }
+    button {
+        width: 100px;
+    }
+}
+    
+
+
+
+
+    
+    
+    
+    
+
+
+
+

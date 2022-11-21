@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyStudy</title>
+    <link rel="stylesheet" href="../Cadastrar Estudos/index.css">
+</head>
+
+<body>
+    <section>
+        <header>
+            <h1 id="um">Cadastrar</h1>
+            <h1 id="dois">Estudos</h1>
+        </header>
+        <div class="estudando">
+            <h2>Quantidade de matérias</h2>
+            <form class="cad" action="">
+            <input id="materia" autocomplete="off" list="materias" required>
+            <datalist id="materias">
+                <option value="Matemática"></option>
+                <option value="Português"></option>
+                <option value="História"></option>
+                <option value="Geografia"></option>
+                <option value="Ciências"></option>
+                <option value="Música"></option>
+
+            </datalist>
+
+            <h2>Tempo diário disponível</h2>
+            <input id="hr" type="time" required>
+
+            <h2 id="disp">Dias disponíveis</h2>
+            <div class="btn-dias">
+                <button>
+                    <p>D</p>
+                </button>
+                <button>
+                    <p>S</p>
+                </button>
+                <button>
+                    <p>T</p>
+                </button>
+                <button>
+                    <p>Q</p>
+                </button>
+                <button>
+                    <p>Q</p>
+                </button>
+                <button>
+                    <p>S</p>
+                </button>
+                <button>
+                    <p>S</p>
+                </button>
+            </div>
+        </div>
+        <button id="crono" type="submit" onclick="minhasMaterias()">Gerar cronograma</button>
+    </form>
+    </section>
+    
+    <script src="../../js/script.js"></script>
+</body>
+
+</html>
